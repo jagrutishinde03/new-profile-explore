@@ -1,0 +1,77 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10%; /* Adjusted margin-top for better positioning */
+  font-family: Arial, sans-serif; /* Change font family */
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding for better readability */
+  text-align: left;
+  font-size: 16px; /* Increase font size */
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between; /* Align buttons with space between */
+  margin-top: 10px; /* Add more space between buttons and table rows */
+}
+
+.action-button {
+  background-color: #000; /* Make buttons black */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px; /* Increased padding for better touchability */
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  font-size: 16px; /* Increase font size */
+}
+
+.action-button:hover {
+  background-color: #333; /* Darken button color on hover */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px; /* Adjusted padding for smaller screens */
+    margin-top: 10%; /* Adjusted margin-top for smaller screens */
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 10px; /* Reduced padding for smaller screens */
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    background-color: #000; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+    font-size: 16px; 
+    margin-right: 10px;
+  }
+  
+  
+}

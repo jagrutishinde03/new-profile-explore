@@ -1,0 +1,118 @@
+.container-fluid {
+  padding-top: 50px;
+  width: 70%;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info {
+  padding-right: 5%; 
+}
+
+.profile-info h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profile-info p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-bio h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.profile-bio p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.profile-details h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.profile-details ul {
+  padding-left: 0;
+}
+
+.profile-details ul li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.follow-button,
+.message-button,
+.summary-button {
+  background-color: black !important;
+  color: white !important;
+}
+
+.location-map,
+.summary-button {
+  margin-top: 2rem;
+}
+
+.location-icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.location-name {
+  font-size: 1rem;
+  color: #333; 
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%; 
+    margin-top: 2rem; 
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-image-container {
+    width: 150px; 
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-info h1 {
+    font-size: 1.5rem; 
+  }
+
+  .profile-info p {
+    font-size: 1rem;
+  }
+
+}

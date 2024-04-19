@@ -28,6 +28,11 @@
 
 ![image](https://github.com/jagrutishinde03/new-profile-explore/assets/96817478/d18f8897-a6f7-4b7b-b00c-7cd6f9e13ee4)
 
+# Responsive and compitible for all devices
+
+![image](https://github.com/jagrutishinde03/new-profile-explore/assets/96817478/f8d4faaf-c412-460d-9298-ec55e9aff5b0)
+
+
 
 
 

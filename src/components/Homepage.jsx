@@ -29,7 +29,7 @@ const Homepage = () => {
         
         <div className="flex-container">
           <div className="profile-container">
-            <h1 className="profile-heading">Profiles</h1>
+            <h1 className="profile-heading">PROFILES</h1>
             <p className="profile-description">Click on a profile to explore more</p>
             <div className="row">
               {filteredProfiles.map(profile => (
@@ -41,8 +41,10 @@ const Homepage = () => {
                   />
                   <h2 className="font-bold">{profile.name}</h2>
                   <p className="text-center w-300 dark:prose-dark">
-                    {profile.role}. {profile.location}.
+                    {profile.role}. 
                   </p>
+
+              
                   <p className="text-center w-300 dark:prose-dark">
                     {profile.email}
                   </p>

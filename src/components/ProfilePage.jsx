@@ -1,12 +1,14 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import '../CSS/styles.css';
 import Button from '@mui/material/Button';
-import LocationOnIcon from '@mui/icons-material/LocationOn'; 
+import LocationOnIcon from '@mui/icons-material/LocationOn'; // Import LocationOn icon
 import profiles from './UsersInfo';
-import '../CSS/ProfilePage.css';
+import '../CSS/styles.css'; 
+import '../CSS/ProfilePage.css'
 
-const ProfilePage = () => {
+
+const ProfilePage = (props) => {
+  // const location = props.location;
   const { id } = useParams();
   const userProfile = profiles.find(profile => profile.id === parseInt(id));
 
@@ -15,7 +17,7 @@ const ProfilePage = () => {
   }
 
   return (
-    <div className="container-fluid mt-4">
+    <div className="container-fluid mt-5">
       <div className="row justify-content-center">
         <div className="col-md-8">
           <div className="card p-4">
@@ -59,15 +61,31 @@ const ProfilePage = () => {
                     <li><strong>Company:</strong> {userProfile.companyName}</li>
                   </ul>
                 </div>
-              </div>
-              <div className="col-md-4">
-                <div className="location-map">
-                  <h2>Location Map</h2>
-                  <LocationOnIcon className="location-icon" /> {userProfile.location}
-                </div>
                 <Button className="summary-button" variant="contained" color="primary">
                   Summary
                 </Button>
+              </div>
+              <div className="col-md-4">
+                <div className="location-map">
+                  <h2>Location</h2>
+                  <LocationOnIcon className="location-icon" /> {userProfile.location} {/* Display location name */}
+                  <div className='map-container' style={{ width: "70%", height: "300px" }}>
+
+
+                    <iframe src={userProfile.locationURL} 
+                    width="300"
+                    height="300" 
+                    style={{border:0}}
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     
+
+                  
+                  </div>
+                </div>
+                
+                
               </div>
             </div>
           </div>

@@ -1,8 +1,14 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
-  margin-top: 10%; /* Adjusted margin-top for better positioning */
+  margin-top: 13%; /* Adjusted margin-top for better positioning */
   font-family: Arial, sans-serif; /* Change font family */
 }
 
@@ -13,11 +19,12 @@
 
 .user-table th,
 .user-table td {
-  border: 1px solid #ddd;
-  padding: 12px; /* Increased padding for better readability */
+  border: 1px solid #fff; /* Set border color to white */
+  padding: 12px;
   text-align: left;
-  font-size: 16px; /* Increase font size */
+  font-size: 16px;
 }
+
 
 .user-table th {
   background-color: #f2f2f2;
@@ -30,14 +37,19 @@
 }
 
 .action-button {
-  background-color: #000; /* Make buttons black */
+  background-color: #000;
   color: white;
   border: none;
   cursor: pointer;
-  padding: 10px 20px; /* Increased padding for better touchability */
+  padding: 10px 20px;
   border-radius: 4px;
-  transition: background-color 0.3s ease; /* Smooth transition on hover */
-  font-size: 16px; /* Increase font size */
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.action-button:last-child {
+  margin-right: 0;
 }
 
 .action-button:hover {

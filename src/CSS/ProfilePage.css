@@ -1,12 +1,24 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .container-fluid {
   padding-top: 50px;
-  width: 70%;
+  width: 100%;
 }
 
 .card {
   border: none;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 .profile-image-container {
@@ -16,6 +28,11 @@
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-image-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .profile-image {
@@ -44,6 +61,23 @@
   margin-bottom: 1rem;
 }
 
+.follow-button,
+.message-button,
+.summary-button {
+  background-color: black !important;
+  color: white !important;
+  transition: background-color 1s ease, color 1s slow;
+}
+
+.follow-button:hover,
+.message-button:hover,
+.summary-button:hover {
+  /* background-color: rgb(233, 235, 227) !important;  */
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: black !important;
+  transition-duration: 1s;
+}
+
 .profile-bio h2 {
   font-size: 1.5rem;
   margin-top: 2rem;
@@ -66,13 +100,6 @@
 .profile-details ul li {
   list-style: none;
   margin-bottom: 0.5rem;
-}
-
-.follow-button,
-.message-button,
-.summary-button {
-  background-color: black !important;
-  color: white !important;
 }
 
 .location-map,
@@ -114,5 +141,4 @@
   .profile-info p {
     font-size: 1rem;
   }
-
 }

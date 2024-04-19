@@ -5,7 +5,7 @@ const Navbar = ({ searchOption, handleSearchOptionChange, searchQuery, setSearch
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand">ProfileExplorer</Link>
+        <Link to="/" className="navbar-brand">Profile <br></br> Explorer</Link>
         <div className="dropdown">
           <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
             Search by {searchOption}

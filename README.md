@@ -1,13 +1,13 @@
 ![image](https://github.com/jagrutishinde03/new-profile-explore/assets/96817478/cad2134b-0a15-4f95-bec6-9c2878a423d4)
 
-# login as a user
+# Login as a user
 
 ![image](https://github.com/jagrutishinde03/new-profile-explore/assets/96817478/49d25ef9-0d75-4e7c-add0-66cf104bf6dd)
 
 ![image](https://github.com/jagrutishinde03/new-profile-explore/assets/96817478/1c4546ac-a05f-47bc-a8c1-8ff370183a29)
 
 
-# explorinig individual profile
+# Exploring individual profile
 
 ![image](https://github.com/jagrutishinde03/new-profile-explore/assets/96817478/31a42d2f-24ee-47c3-b7f1-dfd684208bf1)
 

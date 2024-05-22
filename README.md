@@ -15,7 +15,7 @@ This project is a React-based web application that allows users to view and inte
    - A "Summary" button adjacent to each profile.
 
 4. **Map Services Integration**: 
-   - Integration with external map services like Google Maps or Mapbox to enhance the mapping functionality.
+   - Integration with external map services like Google Map to enhance the mapping functionality.
    - Setting up markers and correctly rendering addresses on the map.
 
 5. **User-Friendly Experience**: 
@@ -57,8 +57,8 @@ This project is a React-based web application that allows users to view and inte
 ## Technologies Used
 
 - **Frontend**: React, React Router, Axios
-- **Styling**: CSS, Bootstrap, or Material-UI (as per preference)
-
+- **Styling**: CSS, Bootstrap, or Material-UI
+-  **Mapping**: Google Maps
 
 ## Folder Structure
 
